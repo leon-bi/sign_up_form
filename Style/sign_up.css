@@ -1,15 +1,18 @@
+/* import display font form google fonts */
+/* @import url('https://fonts.googleapis.com/css2?family=Moirai+One&display=swap'); */
+
+@import url("https://fonts.googleapis.com/css2?family=Moirai+One&family=Poppins:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
 body {
   margin: 30px;
   padding: 20px;
   background: rgb(78, 151, 151);
-  
+
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
 .container {
-  
   padding: 20px;
   display: flex;
   justify-content: space-around;
@@ -20,11 +23,31 @@ body {
   background-image: url("../images/bgnoma.png");
   background-size: cover;
 }
+.formwrap h1 {
+  font-family: "Poppins", sans-serif;
+}
 .formwrap {
   background: rgba(187, 182, 10, 0.386);
+  flex-grow: .5;
+}
+.odin h1 {
+  flex-direction: row;
+  font-family: "Moirai One", sans-serif;
+  flex-grow: 1;
+
+  color: whitesmoke;
+}
+.odin img {
+  max-width: 100px;
+  height: 100px;
   flex-grow: 1;
 }
 .odin {
   background: rgba(115, 6, 44, 0.366);
-  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 2;
+
+
 }
