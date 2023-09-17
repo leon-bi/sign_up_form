@@ -1,0 +1,30 @@
+body {
+  margin: 30px;
+  padding: 20px;
+  background: rgb(78, 151, 151);
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.container {
+  
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  height: 70vh;
+  width: 70vw;
+  background: rgb(19, 37, 37);
+  border-radius: 20px;
+  background-image: url("../images/bgnoma.png");
+  background-size: cover;
+}
+.formwrap {
+  background: rgba(187, 182, 10, 0.386);
+  flex-grow: 1;
+}
+.odin {
+  background: rgba(115, 6, 44, 0.366);
+  flex-grow: 1;
+}
