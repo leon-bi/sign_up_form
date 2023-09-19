@@ -1,46 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
+    <meta charset="UTF-8" />    
     <meta name="viewport" />
     <title>Sign Up</title>
     <link rel="stylesheet" href="../Style/sign_up.css" />
+    <!-- Font Awesome -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- MDB -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.css"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <div class="container">
       <div class="odin">
-        <img src="../images/leon-removebg.png" alt="my logo" />
+        <img src="../images/me.png" alt="my logo" />
         <h1>Odin Project</h1>
       </div>
-      <div class="formwrap">
-        <div class="form">
-            <div class="form--type">
-                <label class="lab">Username<span> * </span></label>
-                <input class="in" type="text" placeholder="Type Your Name in English Only" required>
-                <label class="lab">Password<span> * </span></label>
-                <input class="in" type="password" placeholder="Type a Complex Password" required >
-                <label class="lab">Email<span> * </span></label>
-                <input class="in" type="email" placeholder="Type a Valid Email" required >
-                <label class="lab">Phone<span> * </span></label>
-                <input class="in" type="tel">
-                
-            </div>
-            <input class="button" type="submit" value="Register" >
-        </div>
-      </div>
 
-      <!-- <div class="odin">
-        <h1>The Odin</h1>
+      <div class="formwrap">
+        <p>
+          This is not a real online service! You know you need something like
+          this in your lifr to help you relaize your deepest dreams sign up
+          <em>now</em> to get started
+        </p>
+        <p>You know you want to.</p>
+
+        <form>
+            <!-- 2 column grid layout with text inputs for the first and last names -->
+            <div class="row mb-4">
+              <div class="col">
+                <div class="form-outline">
+                  <input type="text" id="form3Example1" class="form-control" />
+                  <label class="form-label" for="form3Example1">First name</label>
+                </div>
+              </div>
+              <div class="col">
+                <div class="form-outline">
+                  <input type="text" id="form3Example2" class="form-control" />
+                  <label class="form-label" for="form3Example2">Last name</label>
+                </div>
+              </div>
+            </div>
+          
+            <!-- Email input -->
+            <div class="form-outline mb-4">
+              <input type="email" id="form3Example3" class="form-control" />
+              <label class="form-label" for="form3Example3">Email address</label>
+            </div>
+          
+            <!-- Password input -->
+            <div class="form-outline mb-4">
+              <input type="password" id="form3Example4" class="form-control" />
+              <label class="form-label" for="form3Example4">Password</label>
+            </div>
+          
+            <!-- Checkbox -->
+            <div class="form-check d-flex justify-content-center mb-4">
+              <input class="form-check-input me-2" type="checkbox" value="" id="form2Example33" checked />
+              <label class="form-check-label" for="form2Example33">
+                Subscribe to our newsletter
+              </label>
+            </div>
+          
+            <!-- Submit button -->
+            <button type="submit" class="btn btn-primary btn-block mb-4">Sign up</button>
+          
+            <!-- Register buttons -->
+            <div class="text-center">
+              <p>or sign up with:</p>
+              <button type="button" class="btn btn-secondary btn-floating mx-1">
+                <i class="fab fa-facebook-f"></i>
+              </button>
+          
+              <button type="button" class="btn btn-secondary btn-floating mx-1">
+                <i class="fab fa-google"></i>
+              </button>
+          
+              <button type="button" class="btn btn-secondary btn-floating mx-1">
+                <i class="fab fa-twitter"></i>
+              </button>
+          
+              <button type="button" class="btn btn-secondary btn-floating mx-1">
+                <i class="fab fa-github"></i>
+              </button>
+            </div>
+          </form>
       </div>
-      <div class = "formwrap">
-        <form action = "" method="post">
-          <div>
-            <label for = "email">Email</label>
-          </div>
-          <input type = "email" id="email" name="email"/>
-          <button type = "submit">Submit</button>
-        </form>
-      </div> -->
     </div>
   </body>
+  <!-- MDB -->
+<script
+type="text/javascript"
+src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.js"
+></script>
 </html>
