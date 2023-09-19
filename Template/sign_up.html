@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />    
+    <meta charset="UTF-8" />
     <meta name="viewport" />
     <title>Sign Up</title>
     <link rel="stylesheet" href="../Style/sign_up.css" />
@@ -22,14 +22,19 @@
     />
   </head>
   <body>
-    <div class="container">
+    <div class="cont">
       <div class="odin">
         <img src="../images/me.png" alt="my logo" />
         <h1>Odin Project</h1>
       </div>
 
       <div class="formwrap">
-        <p>
+        <div class="d-flex mb-3 ">
+            <button id="button1" type="button" class="btn col-2">Sign Up</button> 
+            <button id="button2" type="button" class="btn btn-dark col-2">Sign In</button>
+            <img class="ms-auto p-2" id="close" src="../images/close.png" alt="close" />
+        </div>
+        
           This is not a real online service! You know you need something like
           this in your lifr to help you relaize your deepest dreams sign up
           <em>now</em> to get started
@@ -37,71 +42,64 @@
         <p>You know you want to.</p>
 
         <form>
-            <!-- 2 column grid layout with text inputs for the first and last names -->
-            <div class="row mb-4">
-              <div class="col">
-                <div class="form-outline">
-                  <input type="text" id="form3Example1" class="form-control" />
-                  <label class="form-label" for="form3Example1">First name</label>
-                </div>
-              </div>
-              <div class="col">
-                <div class="form-outline">
-                  <input type="text" id="form3Example2" class="form-control" />
-                  <label class="form-label" for="form3Example2">Last name</label>
-                </div>
+          <!-- 2 column grid layout with text inputs for the first and last names -->
+          <div class="row mb-4">
+            <div class="col">
+              <div class="form-outline">
+                <input type="text" id="form3Example1" class="form-control" />
+                <label class="form-label" for="form3Example1">First name</label>
               </div>
             </div>
-          
-            <!-- Email input -->
-            <div class="form-outline mb-4">
-              <input type="email" id="form3Example3" class="form-control" />
-              <label class="form-label" for="form3Example3">Email address</label>
+            <div class="col">
+              <div class="form-outline">
+                <input type="text" id="form3Example2" class="form-control" />
+                <label class="form-label" for="form3Example2">Last name</label>
+              </div>
             </div>
-          
-            <!-- Password input -->
-            <div class="form-outline mb-4">
-              <input type="password" id="form3Example4" class="form-control" />
-              <label class="form-label" for="form3Example4">Password</label>
-            </div>
-          
-            <!-- Checkbox -->
-            <div class="form-check d-flex justify-content-center mb-4">
-              <input class="form-check-input me-2" type="checkbox" value="" id="form2Example33" checked />
-              <label class="form-check-label" for="form2Example33">
-                Subscribe to our newsletter
-              </label>
-            </div>
-          
-            <!-- Submit button -->
-            <button type="submit" class="btn btn-primary btn-block mb-4">Sign up</button>
-          
-            <!-- Register buttons -->
-            <div class="text-center">
-              <p>or sign up with:</p>
-              <button type="button" class="btn btn-secondary btn-floating mx-1">
-                <i class="fab fa-facebook-f"></i>
-              </button>
-          
-              <button type="button" class="btn btn-secondary btn-floating mx-1">
-                <i class="fab fa-google"></i>
-              </button>
-          
-              <button type="button" class="btn btn-secondary btn-floating mx-1">
-                <i class="fab fa-twitter"></i>
-              </button>
-          
-              <button type="button" class="btn btn-secondary btn-floating mx-1">
-                <i class="fab fa-github"></i>
-              </button>
-            </div>
-          </form>
+          </div>
+
+          <!-- Email input -->
+          <div class="form-outline mb-4">
+            <input type="email" id="form3Example3" class="form-control" />
+            <label class="form-label" for="form3Example3">Email address</label>
+          </div>
+
+          <!-- Password input -->
+          <div class="form-outline mb-4">
+            <input type="password" id="form3Example4" class="form-control" />
+            <label class="form-label" for="form3Example4">Password</label>
+          </div>
+
+          <!-- Submit button -->
+          <button type="submit" class="btn btn-success btn-block mb-2">
+Create an account          </button>
+
+          <!-- Register buttons -->
+          <div class="text-center">
+            <p>or sign up with:</p>
+            <button type="button" class="btn btn-secondary btn-floating mx-1">
+              <i class="fab fa-facebook-f"></i>
+            </button>
+
+            <button type="button" class="btn btn-secondary btn-floating mx-1">
+              <i class="fab fa-google"></i>
+            </button>
+
+            <button type="button" class="btn btn-secondary btn-floating mx-1">
+              <i class="fab fa-twitter"></i>
+            </button>
+
+            <button type="button" class="btn btn-secondary btn-floating mx-1">
+              <i class="fab fa-github"></i>
+            </button>
+          </div>
+        </form>
       </div>
     </div>
   </body>
   <!-- MDB -->
-<script
-type="text/javascript"
-src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.js"
-></script>
+  <script
+    type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.js"
+  ></script>
 </html>

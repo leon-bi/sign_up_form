@@ -12,34 +12,37 @@ body {
   justify-content: center;
   align-items: center;
 }
-.container {
-  padding: 20px;
+.cont {
+  padding: 0px 0px;
   display: flex;
   justify-content: space-around;
-  height: 70vh;
-  width: 70vw;
+  height: 700px;
   background: rgb(19, 37, 37);
   border-radius: 20px;
   background-image: url("../images/originalbuilding.jpg");
   background-size: cover;
 }
-.formwrap h1 {
+* {
   font-family: "Poppins", sans-serif;
 }
 .formwrap {
-  background: rgba(187, 182, 10, 0.386);
-  flex: 1;
+  padding: 20px;
+  background: rgb(33, 42, 62);
+  background-size: cover;
+  flex: 2;
+  border-radius: 0 20px 20px 0;
 }
 .odin {
-    /* background: rgba(115, 6, 44, 0.366); */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex: 1;
-  }
+  /* background: rgba(115, 6, 44, 0.366); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
 .odin h1 {
   flex-direction: row;
   font-family: "Moirai One", sans-serif;
+  font-weight: 700;
   flex: 1;
 
   color: whitesmoke;
@@ -48,5 +51,20 @@ body {
   max-width: 100px;
   height: 100px;
   flex: 1;
+}
+#close {
+  /* max-width: 100px; */
+  height: 40px;
+  background-color: rgb(155, 164, 181);
+}
+#button1 ,#button2{
+    margin-right: 30px;
+    background-color: rgb(57, 72, 103)  ;
+    color: beige;
+    font-weight: 600;
+
+}
+.form-outline{
+    color: rgb(57, 72, 103);
 }
 
