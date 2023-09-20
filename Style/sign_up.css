@@ -26,7 +26,7 @@ body {
   font-family: "Poppins", sans-serif;
 }
 .formwrap {
-  padding: 20px;
+  padding: 80px;
   background: rgb(33, 42, 62);
   background-size: cover;
   flex: 2;
@@ -38,6 +38,9 @@ body {
   justify-content: center;
   align-items: center;
   flex: 1;
+}
+p{
+  color: beige;
 }
 .odin h1 {
   flex-direction: row;
